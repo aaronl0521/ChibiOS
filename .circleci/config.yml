@@ -19,7 +19,7 @@ jobs:
           path: ./demos/STM32/RT-STM32F103-STM3210E_EVAL-FATFS-USB/build/ch.elf
   unit-test:
     docker:
-      - image: cimg/base:2021.04
+      - image: cimg/base:2020.04
     steps:
       - checkout
       - run:
