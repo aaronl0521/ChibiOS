@@ -29,6 +29,7 @@ jobs:
           name: Build Unit Tests
           command: |
               cd test/rt/testbuild
+              gcc --version
               make
       - run:
           name: Run Unit Tests
